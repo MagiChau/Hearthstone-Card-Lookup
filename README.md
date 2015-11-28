@@ -8,9 +8,8 @@ https://github.com/aca20031/hsbot
 
 #Example
 ```
-import sys
 import json
-from searcher import Searcher
+from card_lookup.searcher import Searcher
 
 f_read = open("cards.json", encoding = "utf8")
 card_dict = json.loads(str(f_read.read()))
